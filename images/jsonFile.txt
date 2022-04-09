@@ -1,0 +1,5 @@
+map.png : 
+    décors : 0,0,2666,1500
+    map : 0,1500,2666,1500 / offset : 1333,790
+oiseau.png :
+    tile : 2000/500 , img : 500,500

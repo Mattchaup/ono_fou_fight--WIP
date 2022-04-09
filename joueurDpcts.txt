@@ -1,0 +1,24 @@
+Déplacements du joueur : 
+
+-> Gauche :
+    déplacement gauche
+    - ne peut pas se déplacer sur la droite
+
+-> Droite : 
+    déplacement droite
+    - ne peut pas se déplacer sur la Gauche
+
+->  Bas :
+    accroupi (sol), traverser(plate-forme), fast fall(air)
+    diminue la hitbox
+    glissade s'il continue de se déplacer dans sa direction, sinon ralenti rapide (sol)
+    - Ne peut pas sauter
+
+-> Haut :
+    saut (sol), créer plate-forme (air)
+    peut cancel le saut si création de plate-forme
+    hauteur du saut dépendant du temps de presson de la touche(hauteur max/ min)
+
+-> Rien :
+    animation de respiration (sol), tombe sous l'effet de la gravité (air)
+    perte de vitesse horizontale
